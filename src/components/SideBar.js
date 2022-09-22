@@ -1,22 +1,21 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {Link} from 'gatsby'
 import { MdOutlineClose } from "react-icons/md"
-const SideBar = () => {
-    const [isMenu, setIsMenu] = useState(true)
+const SideBar = ({toggle}) => {
   return (
     <>
     
 
-        {isMenu && <div className='sidebar'>
-            <MdOutlineClose className='sidebar-icon' onClick={() =>setIsMenu(false)}/>
+        <div className='sidebar'>
+            <MdOutlineClose className='sidebar-icon' onClick={() =>toggle(false)}/>
             <ul className='flex-column'>
 
-                    <Link to='/' onClick={() =>setIsMenu(false)}>Home</Link>
-                    <Link to='/about' onClick={() =>setIsMenu(false)}>About</Link>
-                    <Link to='/projects' onClick={() =>setIsMenu(false)}>Projects</Link>
-                    <Link to='/contact' onClick={() =>setIsMenu(false)}>Contact</Link>
+                    <Link to='/' onClick={() =>toggle(false)}>Home</Link>
+                    <Link to='/about' onClick={() =>toggle(false)}>About</Link>
+                    <Link to='/projects' onClick={() =>toggle(false)}>Projects</Link>
+                    <Link to='/contact' onClick={() =>toggle(false)}>Contact</Link>
             </ul>
-        </div>}
+        </div>
     </>
   )
 }

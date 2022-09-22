@@ -10,10 +10,8 @@ const Navbar = () => {
     <nav>
       <div className='nav-section'>
         <Link to='/'><StaticImage src='../assets/images/canvas/skdlogo.svg' alt='logo' placeholder='tracedSVG' layout='fixed' width={150} className='nav-img'/></Link>
-        <SideBar />
         <MdDehaze className='nav-icon' onClick={() => setIsMenu(!isMenu)}/>
-        {isMenu && <SideBar />}
-        {!isMenu && <SideBar className/>}
+        {isMenu && <SideBar toggle={setIsMenu}/>}
       </div>
     </nav>
     <svg

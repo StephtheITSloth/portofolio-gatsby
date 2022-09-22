@@ -17,10 +17,11 @@ const About = () => {
               <a href='https://github.com/StephtheITSloth'><AiOutlineGithub /></a>
               <a href='https://twitter.com/home'><AiFillTwitterCircle /></a>
             </div>
-          <Link to='/contact' className='hero-btn' >Contact Me!</Link>
+            <Link to='/contact' className='hero-btn' >Contact Me!</Link>
           </article>
           <article className='hero-img'>
             <StaticImage src='../assets/images/canvas/webdev.svg' alt='web-dev' layout='constrained' placeholder='traceSVG' className='hero-img'/>
+            <StaticImage src='../assets/images/canvas/blobflat.svg' alt='oval blob' layout='fixed' placeholder='traceSVG'/>
           </article>
         </section>
     </div>
