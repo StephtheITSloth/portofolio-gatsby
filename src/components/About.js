@@ -21,7 +21,6 @@ const About = () => {
           </article>
           <article className='hero-img'>
             <StaticImage src='../assets/images/canvas/webdev.svg' alt='web-dev' layout='constrained' placeholder='traceSVG' className='hero-img'/>
-            <StaticImage src='../assets/images/canvas/blobflat.svg' alt='oval blob' layout='fixed' placeholder='traceSVG'/>
           </article>
         </section>
     </div>

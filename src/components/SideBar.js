@@ -11,8 +11,9 @@ const SideBar = ({toggle}) => {
             <ul className='flex-column'>
 
                     <Link to='/' onClick={() =>toggle(false)}>Home</Link>
-                    <Link to='/about' onClick={() =>toggle(false)}>About</Link>
-                    <Link to='/projects' onClick={() =>toggle(false)}>Projects</Link>
+                    <Link to='/experiences' onClick={() =>toggle(false)}>Experience</Link>
+                    <Link to='/about' id='hero-section' onClick={() =>toggle(false)}>About</Link>
+                    <Link to='/projects' id='project-section' onClick={() =>toggle(false)}>Projects</Link>
                     <Link to='/contact' onClick={() =>toggle(false)}>Contact</Link>
             </ul>
         </div>

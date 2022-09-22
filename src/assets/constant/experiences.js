@@ -1,4 +1,4 @@
-export const experiences = [
+export default [
     {
         company:'Formation',
         role:'Software Engineering Fellow (Full Stack)',

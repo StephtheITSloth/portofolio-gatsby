@@ -1,4 +1,4 @@
-export const projects = [
+export default[
     {
         title: 'Recipes Dummy App',
         date: '9/2022',
@@ -10,7 +10,7 @@ export const projects = [
             'Filtered recipes by category, and ',
             'Have to reimplement SEO with new Gatsby Head syntax'
         ],
-        image: '../images/projectsScreenShot/Recipes Dummy.png',
+        image: 'https://i.imgur.com/AOTgo9Q.png',
         id: 1
     },
     {
@@ -37,7 +37,7 @@ export const projects = [
             'Users search for the best anime shows with a search field option to create quality website experience.',
             'Search field uses React two-way binding.',
         ],
-        image: '../images/projectsScreenShot/animeForEach.png',
+        image: 'https://i.imgur.com/sd0QoVY.png',
         id: 3
     },
     {
@@ -50,7 +50,7 @@ export const projects = [
             'Beta version consists of 3 questions worth 10 points; wrong answer triggers a flip of the card to display the correct answer. Initial answer based in ecmascript 6, then charAt(0)',
             'Flashcard dynamically traverses an array using a simple index updated based on user and DOM manipulations.',
         ],
-        image: '../images/projectsScreenShot/flashCardGame.png',
+        image: 'https://i.imgur.com/WWaykoX.png',
         id: 4
     }
 ]
