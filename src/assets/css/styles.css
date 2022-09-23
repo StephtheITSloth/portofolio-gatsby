@@ -413,6 +413,11 @@ main page
 }
 
 @media (min-width: 900px){
+
+    .experiences-blob{
+        display: none;
+    }
+    
     .experiences-container{
         width: 90%;
         display: flex;
