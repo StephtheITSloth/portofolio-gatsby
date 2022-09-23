@@ -4,7 +4,7 @@ import Footer from './Footer'
 import '../assets/css/styles.css'
 const Layout = ({children}) => {
   return (
-    <div>
+    <div styles={{width: '100vwp'}}>
         <Navbar />
         {children}
         <Footer />

@@ -4,6 +4,7 @@ import {StaticImage} from 'gatsby-plugin-image'
 const Experience = () => {
   return (
     <section className='experiences-section'>
+    <div className='skew'>
         <header  className='experiences-header'>
             <h1>Experiences</h1>
             <StaticImage src='../assets/images/canvas/blobflat.svg' layout='constrained' placeholder='tracedSVG' alt='blob' className='experiences-blob'/>
@@ -23,6 +24,7 @@ const Experience = () => {
                 </article>
             })}
         </section>
+        </div>
     </section>
   )
 }

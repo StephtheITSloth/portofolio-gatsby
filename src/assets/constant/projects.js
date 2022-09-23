@@ -2,6 +2,7 @@ export default[
     {
         title: 'Recipes Dummy App',
         date: '9/2022',
+        techs: 'Gatsby | Contenful | GraphQL',
         status: 'completed',
         url: 'https://recipes-for-dummies-dummy.netlify.app/',
         mvp: [
@@ -10,13 +11,14 @@ export default[
             'Filtered recipes by category, and ',
             'Have to reimplement SEO with new Gatsby Head syntax'
         ],
-        image: 'https://i.imgur.com/AOTgo9Q.png',
+        image: 'https://i.imgur.com/kxVhaop.png',
         id: 1
     },
     {
         title: 'Spotify Clone',
+        techs: 'Next JS | Prisma | PostgreSQL | JWT | Bcrypt',
         date: '9/2022',
-        status: 'Not completed',
+        status: 'Work in progress',
         url: null,
         mvp: [
             'Created with NextJs, postgresQL, Prisma, Chakra, Bcrypt, JWT ',
@@ -24,33 +26,35 @@ export default[
             'Jwt token stores as cookies',
             'Need to fix the authentication, prisma client error'
         ],
-        image: null,
+        image: 'https://i.imgur.com/ORFDgYP.png',
         id: 2
     },
     {
         title: 'Anime For Each',
         date: '4/2021',
-        status: 'completed && need update',
+        techs: 'React | React Router | API',
+        status: 'completed(needs update)',
         url: 'https://animeforeach.herokuapp.com/sear',
         mvp: [
             'Developed with React.JS, React Hooks, Grid, Flexbox, Heroku, GitHub, API.',
             'Users search for the best anime shows with a search field option to create quality website experience.',
             'Search field uses React two-way binding.',
         ],
-        image: 'https://i.imgur.com/sd0QoVY.png',
+        image: 'https://i.imgur.com/29ECA2C.png',
         id: 3
     },
     {
-        title: 'Flashcard game',
-        date: '3/2021',
+        title: 'Previous Portfolio',
+        date: '6/2021',
         status: 'completed',
-        url: 'https://stephtheitsloth.github.io/Flashcards-How-To-Tricks/',
+        techs: 'SCSS | HTML',
+        url: 'https://stephanekarim.netlify.com',
         mvp: [
-            'Created using HTML, Flexbox, JavaScript.',
-            'Beta version consists of 3 questions worth 10 points; wrong answer triggers a flip of the card to display the correct answer. Initial answer based in ecmascript 6, then charAt(0)',
-            'Flashcard dynamically traverses an array using a simple index updated based on user and DOM manipulations.',
+            'Developed with React.JS, React Hooks, Grid, Flexbox, Heroku, GitHub, API.',
+            'Users search for the best anime shows with a search field option to create quality website experience.',
+            'Search field uses React two-way binding.',
         ],
-        image: 'https://i.imgur.com/WWaykoX.png',
+        image: 'https://i.imgur.com/LqetZrc.png',
         id: 4
-    }
+    },
 ]

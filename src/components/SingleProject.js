@@ -1,36 +1,16 @@
 import React from 'react'
-import {StaticImage} from 'gatsby-plugin-image'
-
 const SingleProject = ({project}) => {
-    const {title,date,status,url,mvp,image} = project
+    const {title,status,url,image, techs} = project
   return (
-    <div className='project-card'>
-        <div className='project-img'>
-            {image && <img src={image} alt='title'/>}
-            {!image && <p>{status}</p>}
-        </div>
+    <a href={url} className='project-card'>
+            <img src={image} alt='title'/>
         <div className='project-info'>
-            <h4 className='project-title'>{title}</h4>
-            <p>Started: {date}</p>
-            <p> Status: {status}</p>
-            <a href={url}>Click me!</a>
-            <></>
+            <h2 className='project-title'>{title}</h2>
+            <h3>Techs: {techs}</h3>
+            <h4> Status: {status}</h4>
         </div>
-    </div>
+    </a>
   )
 }
 
 export default SingleProject
-
-// title: 'Recipes Dummy App',
-// date: '9/2022',
-// status: 'completed',
-// url: 'https://recipes-for-dummies-dummy.netlify.app/',
-// mvp: [
-//     'Built with Gatsby, Graphql, Contenful, FormSpree, SEO, and deployed on Netlify with continuous integration',
-//     'Users browse through recipes, can submit his/her contact with a form',
-//     'Filtered recipes by category, and ',
-//     'Have to reimplement SEO with new Gatsby Head syntax'
-// ],
-// image: '../images/projectsScreenShot/Recipes Dummy.png',
-// id: 1

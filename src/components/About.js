@@ -9,7 +9,7 @@ const About = () => {
           <article className='hero-info'>
             <div>
               <h1 className='hero-header'>Hi!  I am Stephane karim.</h1>
-              <h3>A passionate fullstack  javascript engineer.</h3>
+              <h3>A passionate fullstack  javascript engineer with a background in Biology.</h3>
               <p>Thank you for stopping by!</p>
             </div>
             <div className='social-links'>

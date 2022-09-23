@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className='projects-section'>
       <header className='projects-header'>
-        <StaticImage src='../assets/images/canvas/project.png' alt='tractor' layout='fixed' placeholder='blurred' width={450} className='tractor'/>
+        <StaticImage src='../assets/images/canvas/project.png' alt='tractor' layout='fixed' placeholder='blurred' width={650} className='tractor'/>
         <h1>Projects</h1>
       </header>
       <section className='projects-container'>
